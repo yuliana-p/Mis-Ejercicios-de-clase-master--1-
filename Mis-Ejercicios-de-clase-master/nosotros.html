@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda SENA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo"><a>TIENDA SENA</a></div>
+            <div class="botones_centro">
+                <a href="{% url 'index' %}" id="botonCentro">Inicio</a>
+                <a href="{% url 'productos' %}" id="botonCentro">Productos</a>
+                <a href="{% url 'nosotros' %}" id="botonCentro">Nosotros</a>
+            </div>
+            <div class="botoneslogin">
+                <a href="{% url 'registrar' %}">Registrarse</a>
+                <a href="" class="btnIniciarSesion">Iniciar Sesion</a>
+            </div>
+            
+        </header>
+
+        <main>
+            <section class="texto_nuestro_equipo">
+                <div>
+                    <h1>Nuestro Equipo</h1>
+                </div>
+                <div>
+                    <h2>Conoce el equipo de Tienda Sena</h2>
+                    <p>Somos un equipo de desarrollo web en formación</p>
+                </div> 
+            </section>
+            <section class="perfil_nosotros">
+                <div>
+                    <img src="Pino.png" alt="Foto perfil Yuliana Pino">
+                    <h1>Yuliana Pino Garcia</h1>
+                    <p>Desarrolladora web en formación</p><br>
+                    <p> Soy una apacionada del desarrollo web en formación por diseñar y crear páginas y aplicaciones webs,<br> me encargo tambien del mantenimiento y seguridad.
+                    </p>
+                   <img src="github_git_icon_145985.ico" alt="">
+                   <img src="twitter.png" alt="">
+                   <img src="face.jpg" alt="">
+
+
+                </div>
+
+                <div>
+                    <img src="imacri.png" alt="Foto perfil Cristian Vargas">
+                    <h1>Cristian David Vargas Arenas </h1>
+                    <p>Desarrollador web en formación</p><br>
+                    <p> Soy una apacionada del desarrollo web en formación por diseñar y crear páginas y aplicaciones webs,<br> me encargo tambien del mantenimiento y seguridad.
+                    </p>
+                   <img src="github_git_icon_145985.ico" alt="">
+                   <img src="twitter.png" alt="">
+                   <img src="face.jpg" alt="">
+
+                </div>
+
+                <div>
+                    <img src="carlosa.png" alt="Foto perfil Carlos Andres">
+                    <h1>Carlos Andres Usuga Arenas</h1>
+                    <p>Desarrollador web en formación</p><br>
+                    <p> Soy una apacionada del desarrollo web en formación por diseñar y crear páginas y aplicaciones webs,<br> me encargo tambien del mantenimiento y seguridad.
+                    </p>
+                   <img src="github_git_icon_145985.ico" alt="">
+                   <img src="twitter.png" alt="">
+                   <img src="face.jpg" alt="">
+
+
+                </div>
+
+                <div>
+                    <img src="Paste image.png" alt="Foto perfil Santiago Gomez">
+                    <h1>Santiago Gomez Duque</h1>
+                    <p>Desarrollador web en formación</p><br>
+                    <p> Soy una apacionada del desarrollo web en formación por diseñar y crear páginas y aplicaciones webs,<br> me encargo tambien del mantenimiento y seguridad.
+                    </p>
+                   <img src="github_git_icon_145985.ico" alt="">
+                   <img src="twitter.png" alt="">
+                   <img src="face.jpg" alt="">
+
+                </div>
+
+            </section>
+
+        </main>
+        
+
+
+
+
+    </div>
+    <script src="{% static 'JS/index.js' %}"></script>
+</body>
+</html>

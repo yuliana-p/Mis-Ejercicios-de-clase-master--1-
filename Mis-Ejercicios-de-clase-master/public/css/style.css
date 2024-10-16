@@ -1,0 +1,140 @@
+/* resetear los diseños predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilo de body */
+
+body {
+  font-family: arial, Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: bisque background-color #2773a2;
+}
+/* estilos del header */
+
+header {
+  background-color: rgb(216, 199, 232);
+  color: #2773a2;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+}
+header nav ul li a {
+  color: #2773a2;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: blue;
+}
+
+header nav ul li a:hover {
+  color: rgb(13, 13, 13);
+}
+
+img {
+  width: 5;
+}
+
+/* estilos del main */
+main {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: aliceblue;
+  color: black;
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+.features .feature {
+  background-color: rgb(201, 216, 235);
+  padding: 1rem;
+  border: 1px solid #90caee;
+  width: 30%;
+  text-align: center;
+}
+/*contact-block*/
+.contact-blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.contact-blocks article {
+  background-color: rgb(199, 207, 234);
+  padding: 1rem;
+  border: 1px solid #d2d5d7;
+  width: 48%;
+  text-align: center;
+}
+/*sidebar*/
+aside{
+    background-color:rgb(216, 213, 225) ;
+    padding: 2rem;
+    margin: 2rem 0;
+
+}
+aside h2{
+    margin-bottom: 1rem;
+
+}
+aside ul{
+    list-style: none;
+
+}
+
+ aside ul li{
+    margin-bottom: 0.5rem;
+ }
+
+ aside ul li a{
+    color: rgb(83, 120, 142);
+    text-decoration: none;
+ }
+/*footer*/
+ footer{
+    background-color: rgb(214, 200, 228);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    
+    
+}
+footer p{
+    margin-bottom: 1rem;
+}
+footer ul{
+    list-style:none ;    
+}
+
+footer ul a{
+    color: rgb(241, 245, 245);
+    text-decoration: none;
+    
+    display: flex;
+
+    
+}
